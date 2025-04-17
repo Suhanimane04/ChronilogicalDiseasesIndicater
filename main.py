@@ -4,7 +4,7 @@ import plotly.express as px
 
 # Load the dataset
 def load_data():
-    file_path = "U.S._Chronic_Disease_Indicators.csv"
+    file_path = "compressed_data.csv.gz"
     df = pd.read_csv(file_path)
 
     # Show column names for reference
